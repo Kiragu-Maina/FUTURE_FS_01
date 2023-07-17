@@ -40,6 +40,7 @@ const Contact = () => {
 
 	const handleSubmit = (e) => {
 		e.preventDefault();
+		setLoading(true);
 
 		emailjs
 			.send(
@@ -48,7 +49,7 @@ const Contact = () => {
 				{
 					from_name: form.name,
 					to_name: "Kiragu_Maina",
-					from_email: form.email,
+					reply_to: form.email,
 
 					message: form.message,
 				},
@@ -111,7 +112,7 @@ const Contact = () => {
 							. I make an effort to respond to all messages within
 							24 hours, although it may take me longer during busy
 							periods. Alternatively, you can use the contact form
-							on my website to get in touch. Simply fill out the
+							below to get in touch. Simply fill out the
 							required fields and I'll get back to you as soon as
 							possible. Finally, if you prefer to connect on
 							social media, you can find me on{" "}
@@ -128,7 +129,7 @@ const Contact = () => {
 							to hearing from you!
 						</div>
 						<div className="section-title">
-							<h2>Or just reach me here quickly</h2>
+
 							<div
 								className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}
 							>
