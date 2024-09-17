@@ -35,12 +35,12 @@ const INFO = {
 
 	projects: [
 		{
-			title: "Project 1",
+			title: "My Flutter Portfolio",
 			description:
-				"Delivery tracking mobile and web application for Njeki Transporters.",
+				"See my work on mobile projects using Flutter.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
 			linkText: "View Project",
-			link: "https://github.com/Kiragu-Maina/deliverylogisticswithdjango",
+			link: "/flutter",
 		},
 
 		{
