@@ -1,0 +1,137 @@
+/* Flutter page styling */
+
+.page-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f7f7f7;
+    padding: 20px;
+}
+
+.content-wrapper {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.flutter-logo-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.flutter-logo {
+    width: 46px;
+    height: auto;
+}
+
+.flutter-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 40px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.flutter-main {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+}
+
+.flutter-right-side {
+    width: 100%;
+}
+
+.title.flutter-title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.subtitle.flutter-subtitle {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.projects {
+    margin-top: 20px;
+}
+
+.projects-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.project-item {
+    margin-bottom: 30px;
+}
+
+.project-item h3 {
+    font-size: 24px;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+.project-item p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.project-image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.flutter-left-side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flutter-image-container {
+    width: 100%;
+    max-width: 400px;
+}
+
+.flutter-image-wrapper {
+    width: 100%;
+    height: auto;
+}
+
+.flutter-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.flutter-socials {
+    margin-top: 20px;
+}
+
+.flutter-socials-mobile {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .flutter-container {
+        flex-direction: column;
+    }
+
+    .flutter-socials-mobile {
+        display: block;
+        margin-top: 20px;
+    }
+}

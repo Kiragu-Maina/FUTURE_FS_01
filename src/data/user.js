@@ -32,6 +32,10 @@ const INFO = {
 		description:
 			"Chronological collection of my long-form thoughts on programming, leadership, product design, and more.",
 	},
+	flutter: {
+		title: "Flutter Portfolio",
+		description: "As a Flutter developer, I have worked on a range of mobile applications including DelTrack, a real-time delivery tracking system, and a Bus Management System that enhances efficiency and safety through innovative use of mobile technology."
+	},
 
 	projects: [
 		{
