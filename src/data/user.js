@@ -44,7 +44,7 @@ const INFO = {
 				"See my work on mobile projects using Flutter.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
 			linkText: "View Project",
-			link: "/flutter",
+			link: "https://docs.google.com/document/d/1_MI2gpU03NqgzVxGAYarAcvZm_PTKiNWKt73xtBGMeE/edit?usp=sharing",
 		},
 
 		{
