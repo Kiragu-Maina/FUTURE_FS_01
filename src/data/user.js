@@ -8,8 +8,8 @@ const INFO = {
 
 	socials: {
 		twitter: "https://twitter.com/",
-		github: "https://github.com/",
-		linkedin: "https://linkedin.com/",
+		github: "https://github.com/Kiragu-Maina",
+		linkedin: "https://www.linkedin.com/in/kiragu-maina-58063a179/",
 		instagram: "https://instagram.com/",
 		stackoverflow: "https://stackoverflow.com/",
 		facebook: "https://facebook.com/",
@@ -18,53 +18,54 @@ const INFO = {
 	homepage: {
 		title: "Full-stack web and mobile app developer.",
 		description:
-			"I am a backend developer with expertise in Python and the Django framework. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards. I am always looking for new challenges and opportunities to grow as a developer.",
+			"I am a full-stack developer and Electronic & Computer Engineer with over 3 years of experience. Specializing in Python, JavaScript, Django, and Flutter, I build robust web and mobile applications that drive efficiency and meet industry standards. I’m skilled in backend and frontend development, embedded systems, and e-commerce solutions, focusing on scalable, secure, and user-friendly applications. I enjoy tackling complex challenges and continuously advancing my skill set to create impactful, high-quality solutions.",
 	},
 
 	about: {
 		title: "I’m Kiragu M. I live in Juja, where I design the future.",
 		description:
-			"I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to. If you're interested in any of the projects I've worked on, please feel free to check out the code and suggest any improvements or enhancements you might have in mind. Collaborating with others is a great way to learn and grow, and I'm always open to new ideas and feedback.",
+			"My journey in tech spans a wide array of projects, from autonomous robotics to IoT-driven systems. With experience in cross-functional teams and a strong foundation in control systems, sensor integration, and cloud deployments, I bring a holistic approach to each project. Whether open-source contributions or commercial software, I’m driven to create systems that excel in functionality and user experience. Explore my portfolio for insights into my work and contributions, and feel free to connect for collaborations.",
 	},
 
 	articles: {
-		title: "I'm passionate about pushing the boundaries of what's possible and inspiring the next generation of innovators.",
+		title: "Inspiring innovation through technology.",
 		description:
-			"Chronological collection of my long-form thoughts on programming, leadership, product design, and more.",
+			"Explore my articles on full-stack development, project management, and the intersection of software with embedded systems and IoT.",
 	},
+
 	flutter: {
 		title: "Flutter Portfolio",
-		description: "As a Flutter developer, I have worked on a range of mobile applications including DelTrack, a real-time delivery tracking system, and a Bus Management System that enhances efficiency and safety through innovative use of mobile technology."
+		description:
+			"As a Flutter developer, I've developed applications like DelTrack, a real-time delivery tracking system, and a Bus Management System focused on safety and operational efficiency. My approach emphasizes user experience and innovative solutions through mobile technology.",
 	},
 
 	projects: [
 		{
-			title: "My Flutter Portfolio",
+			title: "Crash Game Platform",
 			description:
-				"See my work on mobile projects using Flutter.",
+				"Built a Python-Django crash game platform with Django Channels, Dockerized for scalable deployment on Railway.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
 			linkText: "View",
-			link: "https://docs.google.com/document/d/1_MI2gpU03NqgzVxGAYarAcvZm_PTKiNWKt73xtBGMeE/edit?usp=sharing",
+			link: "https://github.com/Kiragu-Maina/Crash-Game",
 		},
 
 		{
-			title: "Project 2",
+			title: "Kukuway E-commerce Platform",
 			description:
-				"Construction rates calculator and hardware eshop.",
-			logo: "https://cdn.cdnlogo.com/logos/r/85/react.svg",
-			linkText: "View Project",
-			link: "https://github.com/Kiragu-Maina/constructionrates",
-		},
-
-		{
-			title: "Project 3",
-			description:
-				"API endpoint for generating images using stable diffusion api using prompts that are generated randomly by using gpt2 .",
+				"An e-commerce platform and construction rates calculator using Django and REST APIs, serving the Kenyan market.",
 			logo: "https://cdn.cdnlogo.com/logos/d/3/django.svg",
 			linkText: "View Project",
-			link: "https://github.com/Kiragu-Maina/Django-REST-Server---Image-Generation",
+			link: "https://www.kukuway.com",
 		},
 
+		{
+			title: "Landing Pages",
+			description:
+				"A portfolio of landing pages, showcasing responsive designs and modern UI/UX built with React, Vue, and Angular.",
+			logo: "https://cdn.cdnlogo.com/logos/r/85/react.svg",
+			linkText: "View Project",
+			link: "https://kalundegideon.vercel.app/",
+		},
 
 	],
 };
