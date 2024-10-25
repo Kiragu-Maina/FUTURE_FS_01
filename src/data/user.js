@@ -7,7 +7,7 @@ const INFO = {
 	},
 
 	socials: {
-		twitter: "https://twitter.com/",
+		twitter: "https://x.com/kiragu_maina_",
 		github: "https://github.com/Kiragu-Maina",
 		linkedin: "https://www.linkedin.com/in/kiragu-maina-58063a179/",
 		instagram: "https://instagram.com/",
