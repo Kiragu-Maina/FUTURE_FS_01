@@ -61,7 +61,7 @@ const INFO = {
 		{
 			title: "Landing Pages",
 			description:
-				"A portfolio of landing pages, showcasing responsive designs and modern UI/UX built with React, Vue, and Angular.",
+				"A portfolio of landing pages, showcasing responsive designs and modern UI/UX built with React - NextJs.",
 			logo: "https://cdn.cdnlogo.com/logos/r/85/react.svg",
 			linkText: "View Project",
 			link: "https://kalundegideon.vercel.app/",
