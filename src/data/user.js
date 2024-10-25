@@ -52,7 +52,7 @@ const INFO = {
 		{
 			title: "Kukuway E-commerce Platform",
 			description:
-				"An e-commerce platform and construction rates calculator using Django and REST APIs, serving the Kenyan market.",
+				"An e-commerce platform using Django and REST APIs, serving the Kenyan market.",
 			logo: "https://cdn.cdnlogo.com/logos/d/3/django.svg",
 			linkText: "View Project",
 			link: "https://www.kukuway.com",
