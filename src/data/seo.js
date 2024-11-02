@@ -39,7 +39,7 @@ const SEO = [
 		keywords: ["Kiragu", "Kiragu M", "Kiragu Maina"],
 	},
 	{
-		page: "wnestjs",
+		page: "nestjs",
 		description:
 			"Exploring the basics of working with NestJS, a progressive Node.js framework for building scalable and efficient server-side applications.",
 		keywords: ["NestJS", "Node.js", "backend development", "NestJS tutorial"],

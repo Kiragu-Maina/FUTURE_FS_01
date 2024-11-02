@@ -29,7 +29,7 @@ const WorkingWithNestJS = () => {
 			</Helmet>
 
 			<div className="page-content">
-				<NavBar active="working-with-nestjs" />
+				<NavBar active="nestjs" />
 				<div className="content-wrapper">
 					<div className="nestjs-logo-container">
 						<div className="nestjs-logo">
