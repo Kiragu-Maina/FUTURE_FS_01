@@ -47,7 +47,7 @@ const WorkingWithNestJS = () => {
 
 						<div className="embedded-google-doc">
 							<iframe
-								src="YOUR_GOOGLE_DOC_LINK"
+								src="https://docs.google.com/document/d/1FEWUNKh2Pm0VzJBHOoe_2zYl_kGYp-8vTwMhDIPiLIY/edit?usp=sharing"
 								width="100%"
 								height="500px"
 								frameBorder="0"
