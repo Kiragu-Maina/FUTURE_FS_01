@@ -1,0 +1,90 @@
+/* nestjs.css */
+
+/* General page styling */
+.page-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+.content-wrapper {
+    max-width: 1200px;
+    width: 100%;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    margin-top: 20px;
+}
+
+/* Logo container */
+.nestjs-logo-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.nestjs-logo {
+    width: 60px;
+}
+
+/* Page title and subtitle */
+.title.nestjs-title {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #333333;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.subtitle.nestjs-subtitle {
+    font-size: 1.2em;
+    color: #666666;
+    text-align: center;
+    line-height: 1.6em;
+    margin-bottom: 30px;
+    padding: 0 20px;
+}
+
+/* Embedded Google Doc container */
+.embedded-google-doc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.embedded-google-doc iframe {
+    border: none;
+    width: 100%;
+    max-width: 100%;
+    height: 500px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer styling */
+.page-footer {
+    margin-top: 40px;
+    text-align: center;
+    color: #888888;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .title.nestjs-title {
+        font-size: 2em;
+    }
+
+    .subtitle.nestjs-subtitle {
+        font-size: 1em;
+    }
+
+    .content-wrapper {
+        padding: 20px;
+    }
+
+    .embedded-google-doc iframe {
+        height: 400px;
+    }
+}

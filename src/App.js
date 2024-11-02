@@ -13,6 +13,7 @@ import Notfound from "./pages/404";
 
 import { TRACKING_ID } from "./data/tracking";
 import "./app.css";
+import WorkingWithNestJS from "./pages/nestjs";
 
 function App() {
 	useEffect(() => {
@@ -28,6 +29,7 @@ function App() {
 				<Route path="/about" element={<About />} />
 				<Route path="/projects" element={<Projects />} />
 				<Route path="/flutter" element={<FlutterPortfolio />} />
+				<Route path="/nestjs" element={<WorkingWithNestJS />} />
 				<Route path="/articles" element={<Articles />} />
 
 				<Route path="/contact" element={<Contact />} />

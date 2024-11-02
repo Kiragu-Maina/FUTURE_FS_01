@@ -38,6 +38,13 @@ const SEO = [
 			"If you're interested in collaborating on a project, feel free to reach out to me. I'm always open to new ideas and opportunities.",
 		keywords: ["Kiragu", "Kiragu M", "Kiragu Maina"],
 	},
+	{
+		page: "wnestjs",
+		description:
+			"Exploring the basics of working with NestJS, a progressive Node.js framework for building scalable and efficient server-side applications.",
+		keywords: ["NestJS", "Node.js", "backend development", "NestJS tutorial"],
+},
+
 ];
 
 export default SEO;
