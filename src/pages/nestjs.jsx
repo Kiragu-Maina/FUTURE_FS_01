@@ -42,8 +42,17 @@ const WorkingWithNestJS = () => {
 						</div>
 
 						<div className="subtitle nestjs-subtitle">
-                            The google docs shows my workings with nestjs. The screenshots provided are of my terminal.
-						</div>
+                        <p>
+                            This Google Document outlines my work with NestJS while building a dating-app api. The accompanying screenshots depict my terminal activity.
+                        </p>
+                        <p>
+                            You can view the GitHub repository for this project at: 
+                            <a href="https://github.com/Kiragu-Maina/dating-app-api" target="_blank" rel="noopener noreferrer">
+                                https://github.com/Kiragu-Maina/dating-app-api
+                            </a>
+                        </p>
+                    </div>
+
 
 						<div className="embedded-google-doc">
 							<iframe
